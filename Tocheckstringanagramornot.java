@@ -9,7 +9,7 @@ public class Tocheckstringanagramornot {
 		Scanner sc=new Scanner(System.in);
         String A=sc.nextLine();
         String B=sc.nextLine();
-        if(isAnagram1(A,B)){
+        if(isAnagram(A,B)){
         	System.out.println("Anagrams");
         }
         else{
